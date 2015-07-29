@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	background: url(/img/fon.jpg);
+	background-color:#000000;
+	color:#30FF00;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background-color:#000000;
+	border:1px solid #30FF00;
+	box-shadow: 0 0 10px 2px #30FF00;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 140px;
+	background: url(/img/header.png) no-repeat;
+	background-color:#121212;
+	border-bottom:1px solid red;
+	padding: 5px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 250px solid #000000;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	padding: 0 20px;
+	border-left:1px solid green;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 230px;
+	position: relative;
+	background: #000000;
+	padding: 0 10px;
+	left: -250px;
+	font-size:14px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 50px;
+	color:red;
+	background: #000000;
+	border-top:1px solid red;
+}
